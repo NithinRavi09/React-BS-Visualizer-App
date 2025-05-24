@@ -1,0 +1,54 @@
+.app {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+.visualizer input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 250px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #282828;
+  user-select: auto;
+  font-size: 16px;
+  :focus {
+    border: 3px solid #5551ff;
+  }
+}
+
+.visualizer button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  height: 36px;
+  line-height: 34px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #007c89;
+  transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+  padding: 0 18px;
+  :hover {
+    color: #ffffff;
+    background-color: #006570;
+  }
+}
+
+.steps {
+  margin-top: 2rem;
+}
+
+.step {
+  border: 1px solid #ddd;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  width: 60%;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
