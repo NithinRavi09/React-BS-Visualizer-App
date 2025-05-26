@@ -38,7 +38,7 @@ function Visualizer() {
         value={target}
         onChange={(e) => setTarget(e.target.value)}
       />
-      <button onClick={handleVisualize}>Visulaize</button>
+      <button onClick={handleVisualize}>Visualize</button>
 
       <div className="steps">
         {steps.map((step, idx) => (
